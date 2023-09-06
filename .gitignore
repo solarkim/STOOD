@@ -1,0 +1,57 @@
+# Environments
+.venv
+.vscode
+
+# Distribution / packaging
+build/
+# dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Sphinx documentation
+docs/_build
+docs/_static
+docs/_templates
+
+# Unit tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Unnecessary Files
+__pycache__
+*/__pycache__
+*/*/__pycache__
+*/.ipynb_checkpoints
+.ipynb_checkpoints
+.empty
+*.pyc
+instance/logs
+instance/temp
+tests/temp
+=9.0
+nohup.out
+examples
+examples/data
+examples/lightning_logs
+examples/models
+data/mnist
+logs
+lightning_logs
+org
+dataset
+data3
+val_data
